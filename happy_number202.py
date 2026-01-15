@@ -23,7 +23,4 @@ def isHappy(n: int) -> bool:
         if num == 1:
             return True
             
-    
-print(isHappy(1999999999))
-print(isHappy(100000000000000000000000000000000000000000000000000000000))
 
