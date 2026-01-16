@@ -23,15 +23,6 @@ class LinkedList:
 
         return max
 
-head1 = ListNode(5,ListNode(4,ListNode(2,ListNode(1))))
-head2 = ListNode(1,ListNode(100000))
-head3 = ListNode(4,ListNode(2,ListNode(2,ListNode(3))))
-ll = LinkedList(head1)
-ll2 = LinkedList(head2)
-ll3 = LinkedList(head3)
-
-print(ll.pairSum())
-print(ll3.pairSum())
 
 
 
